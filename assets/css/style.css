@@ -1,0 +1,100 @@
+.x-container {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 24px;
+    font: 14px Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1, Tahoma, Arial, sans-serif;
+    background: #eaeaea;
+}
+
+a:hover{
+    color: #1E9FFF;
+}
+
+header {
+    height: 60px;
+    background: #393D49;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#393D49), to(rgba(10, 10, 10, 0.8)));*/
+}
+
+footer {
+    height: 50px;
+    margin-top: 50px;
+    /*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#444), to(rgba(10, 10, 10, 0.8)));*/
+}
+
+.x-logo{
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    color: #fff;
+}
+
+.x-nav{
+    margin-left: 160px;
+}
+
+.x-panel {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    border-radius: 2px;
+    width: auto;
+}
+
+.x-panel-title {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px dotted #E9E9E9;
+    border-radius: 2px 2px 0 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.x-panel-main {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.x-panel-main dd {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.x-link a{
+    line-height: 24px;
+    padding-right: 15px;
+}
+
+.x-list {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
+}
+
+.x-list li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #E9E9E9;
+    color: #333;
+    font-size: 14px;
+}
