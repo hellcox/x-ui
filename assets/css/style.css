@@ -54,7 +54,6 @@ footer {
 
 .x-panel-title {
     position: relative;
-    height: 50px;
     line-height: 50px;
     padding: 0 10px;
     border-bottom: 1px dotted #E9E9E9;
@@ -176,6 +175,19 @@ footer {
     /*background: #fff;*/
     padding: 20px 0;
 }
-.x-footer-main p{
+
+.x-footer-main p {
     margin-bottom: 10px;
+}
+
+.x-detail-title {
+    font-weight: bold;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.x-detail-content{
+
+}
+.x-detail-content img{
+    max-width: 100%;
 }
